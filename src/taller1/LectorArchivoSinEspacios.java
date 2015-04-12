@@ -9,7 +9,7 @@ public class LectorArchivoSinEspacios extends LectorArchivo {
 		// TODO Auto-generated constructor stub
 	}
 	public int leer(){
-		int j =0;
+		int j =90;
 		
 		//codigo necesario para remplazar cada espacio que encuentre en la lectura por un unerline _
 		return j;
