@@ -8,10 +8,14 @@ public class LectorArchivoSinEspacios extends LectorArchivo {
 		super(archivo);
 		// TODO Auto-generated constructor stub
 	}
+	
+	//metodo sobreescrito de la clase padre. Necesario para reemplazar cada espacio 
+	//que encuentre en la lectura por un underline _
 	public int leer(){
-		int j =90;
+		int j =0;
 		
-		//codigo necesario para remplazar cada espacio que encuentre en la lectura por un unerline _
+		//TO-DO
+
 		return j;
 	}
 }
