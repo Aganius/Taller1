@@ -3,10 +3,10 @@ package taller1;
 import udem.pds.taller1.io.base.LectorArchivo;
 
 
-public class LectorAcrhivoMayusculas extends LectorArchivo{
+public class LectorArchivoMayusculas extends LectorArchivo{
 	
 	
-	public LectorAcrhivoMayusculas(String archivo) {
+	public LectorArchivoMayusculas(String archivo) {
 		super(archivo);
 		// TODO Auto-generated constructor stub
 	}
