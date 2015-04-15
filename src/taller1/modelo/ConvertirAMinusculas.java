@@ -1,5 +1,6 @@
 package taller1.modelo;
 
+import udem.pds.taller1.io.base.Lector;
 import udem.pds.taller1.io.base.LecturaException;
 
 
@@ -9,8 +10,8 @@ import udem.pds.taller1.io.base.LecturaException;
  */
 public class ConvertirAMinusculas extends TextDecorator{
 	
-	public ConvertirAMinusculas() {
-		super();
+	public ConvertirAMinusculas(Lector lector) {
+		super(lector);
 		// TODO Auto-generated constructor stub
 	}
 	

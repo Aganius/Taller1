@@ -1,5 +1,6 @@
 package taller1.modelo;
 
+import udem.pds.taller1.io.base.Lector;
 import udem.pds.taller1.io.base.LecturaException;
 
 /**
@@ -8,8 +9,8 @@ import udem.pds.taller1.io.base.LecturaException;
  */
 public class ConvertirEspaciosAUnderscore extends TextDecorator {
 
-	public ConvertirEspaciosAUnderscore() {
-		super();
+	public ConvertirEspaciosAUnderscore(Lector lector) {
+		super(lector);
 		// TODO Auto-generated constructor stub
 	}
 

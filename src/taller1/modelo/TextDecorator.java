@@ -11,8 +11,8 @@ public abstract class TextDecorator implements Lector {
 	
 	protected Lector lector;
 
-	public TextDecorator() {
-		super();
+	public TextDecorator(Lector lector) {
+		this.lector = lector;
 	}
 
 }
